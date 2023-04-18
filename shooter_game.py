@@ -1,7 +1,7 @@
 from pygame import *
 from random import randint
 from time import time as timer
-
+#my first game
 class GameSprite(sprite.Sprite):
     def __init__(self, player_image, player_x, player_y, size_x, size_y, player_speed):
         sprite.Sprite.__init__(self)
@@ -65,7 +65,7 @@ score = 0
 lost = 0
 goal = 10
 max_lost = 3
-life = 3
+life = 2
 
 
 win_width = 700
